@@ -27,6 +27,9 @@ export default class App extends Component<Props> {
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
+        <Text style={styles.codepushed}>
+          Welcome to code push!
+        </Text>
         <Text style={styles.instructions}>
           To get started, edit App.js
         </Text>
@@ -44,6 +47,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
+  },
+  codepushed: {
+    fontSize: 30,
+    textAlign: 'center',
+    margin: 10,
   },
   welcome: {
     fontSize: 20,
